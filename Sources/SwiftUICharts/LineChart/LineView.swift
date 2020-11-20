@@ -28,7 +28,7 @@ public struct LineView: View {
     public init(data: [Double],
                 title: String? = nil,
                 legend: String? = nil,
-                style: ChartStyle = Styles.lineChartStyleOne,
+                style: ChartStyle = Styles.barChartStyleOrangeLight,
                 valueSpecifier: String? = "%.1f") {
         
         self.data = ChartData(points: data)
